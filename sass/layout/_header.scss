@@ -1,0 +1,17 @@
+.header {
+&__navbar{
+    @include center;
+    margin-left: 9.5rem;
+}
+&__navbar__item:not(:last-child){
+    margin-right: 9.5rem;
+}
+&__navbar__item__link{
+    @include font ($font-weight-regular, $navbar-size, $navbar-line);
+    color: $text-color;
+}
+}
+.header-container {
+    @include center;
+    padding-top: 5.7rem;
+}

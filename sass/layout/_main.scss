@@ -1,0 +1,99 @@
+.hero {
+    padding-top: 8rem;
+}
+.hero__top__info{
+    @include center;
+}
+.hero-container {
+}
+.hero__info{
+    &__title {
+        max-width: 54.3rem;
+        @include font($font-weight-extrabold, $text-middle-size, $text-middle-line);
+        color: #fff;
+    }
+    &__title__blue{
+        @include font($font-weight-extrabold, $text-middle-size, $text-middle-line);
+    color: $tittle-color;
+    }
+    &__text{
+        max-width: 57rem;
+        padding-top: 5.4rem;
+        @include font ($font-weight-regular, $text-normal-size, $text-normal-line);
+        color: $text-color;
+    }
+}
+
+
+.hero__text {
+}
+.site-btn {
+}
+.hero__btn {
+}
+.hero__btn__black {
+    
+}
+.hero__result {
+    @include center;
+    padding-top: 5.4rem;
+    &__item:not(:last-child){
+        margin-right: 5rem;
+    }
+    &__item__number{
+        @include font ($font-weight-regular, $text-middle-size, $text-middle-line);
+        
+    }
+    &__item__number__blue{
+        color: $tittle-color;
+    }
+    &__item__text{
+        max-width: 12.2rem;
+        @include font ($font-weight-regular, $text-normal-size, $text-normal-line);
+        color:$text-color;
+    }
+}
+.hero__result__item {
+}
+.hero__result__item__number {
+}
+.hero__result__item__number__blue {
+}
+.hero__result__item__text {
+}
+.hero__images {
+}
+.hero__images__img {
+}
+.hero__advantage {
+    @include center;
+    justify-content: center;
+    max-width: 100rem;
+    border-radius: 4.6rem;
+    background-color: #fff;
+    &__item{
+        :not(:last-child){
+            margin-right: 13.8rem;
+        }
+        
+    }
+    &__item__title{
+        @include font ($font-weight-medium, $tittle-easy-size, $tittle-easy-line);
+        color: black;
+        text-align: center;
+    }
+    &__item__text{
+        @include font ($font-weight-regular, $text-normal-size, $text-normal-line);
+        color: black;
+        text-align: center;
+    }
+}
+.hero__advantage__item {
+}
+.hero__advantage__item__img {
+}
+.hero__advantage__item__title {
+
+}
+.hero__advantage__item__text {
+}
